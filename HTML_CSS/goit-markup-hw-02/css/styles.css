@@ -1,0 +1,238 @@
+:root {
+  --first-color: #2e2f42;
+  --second-color: #434455;
+  --first-background-color: #ffffff;
+  --second-background-color: #2e2f42;
+  --accent-color: #4d5ae5;
+}
+
+/* ====================================================================== */
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.02em;
+  background-color: var(--first-background-color);
+  color: var(--first-color);
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* ==================================Шапка=============================== */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-web {
+  color: #4d5ae5;
+}
+
+.logo-studio-top {
+  color: var(--first-color);
+}
+
+.menu-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--first-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--second-color);
+}
+.menu-link:active {
+  color: #4d5ae5;
+}
+
+.contact-mail,
+.contact-phone {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--second-color);
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--accent-color);
+}
+.contact-phone:hover,
+.contact-phone:focus {
+  color: var(--accent-color);
+}
+/* ==================================/ Шапка=============================== */
+
+/* ===================================HERO================================ */
+.hero {
+  background-color: var(--second-background-color);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.18;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px #00000026;
+}
+
+.hero-btn:active {
+  background-color: #404bbf;
+}
+/* ===================================/ HERO================================ */
+
+/* ================================Наші переваги=========================== */
+
+.title-advantages {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--first-color);
+}
+
+.text-advantages {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--second-color);
+}
+/* ================================/ Наші переваги=========================== */
+
+/* =================================Що ми робимо============================= */
+.title-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--first-color);
+}
+
+/* ================================/ Що ми робимо============================= */
+
+/* =================================Наша команда============================== */
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.team-item {
+  background-color: var(--first-background-color);
+}
+
+.team-employee {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--first-color);
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--second-color);
+}
+
+/* =================================/ Наша команда============================== */
+
+/* ===================================Футер===================================== */
+
+.footer-space {
+  background-color: var(--second-background-color);
+}
+.logo-studio-bottom {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #e7e9fc;
+}
+/* ==================================/ Футер===================================== */
+
+/* .......................................Портфоліо сторінка.................................. */
+
+.portfolio-section {
+  background-color: var(--first-background-color);
+}
+/* ========================================Фільтр=================================== */
+.filter-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+.filter-btn {
+  cursor: pointer;
+}
+/* ========================================/ Фільтр=================================== */
+
+/* ========================================Портфоліо================================== */
+.title-portfolio {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--first-color);
+}
+
+.text-portfolio {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--second-color);
+}
+
+/* ========================================/ Портфоліо================================ */
