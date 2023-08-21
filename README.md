@@ -1,1 +1,11 @@
-# Go-IT
+- Змінні і типи
+  - Оголошення змінних let i const
+- Взаємодія з користувачем
+  - Виведення даних alert(), console.log()
+  - Отримання даних confirm(), prompt()
+- Оператори порівняння
+- Number
+  - Приведення до числа
+  - Перевірка на число
+  - Методи Number.parseInt() і Number.parseFloat()
+  - toFixed
